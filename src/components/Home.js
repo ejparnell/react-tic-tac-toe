@@ -6,7 +6,9 @@ class Home extends Component {
         super(props)
         this.state = {
             board: ['','','','','','','','',''],
-            wins: 0
+            wins: 0,
+            player: 'x',
+            gameOver: false
         }
     }
     handleClick = () => {
